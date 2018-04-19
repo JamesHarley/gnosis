@@ -7,7 +7,7 @@ import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
 import Contact from './components/Contact';
-
+import TheFoot from './components/TheFoot'
 import Naver from './components/Naver';
 
 
@@ -17,11 +17,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-
-          <h1 className=""> Gnosis Development</h1>
+          <br />
+          <h1 className=""> <p>Gnosis Development</p></h1>
         </header>
        
-        <div className="inner"> <p className="">Gnosis - the knowledge gained from experience, <br /> not theory or estimation</p></div>
         <div className="App-intro">
         </div>
         <div className="boxed" >
@@ -37,7 +36,7 @@ class App extends Component {
             
           </div>
         </div>
-       
+        <TheFoot />
 
       </div>
     );
