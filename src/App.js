@@ -6,7 +6,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-inner">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         <h1 className="display-1"> Gnosis Development</h1>
@@ -24,7 +23,6 @@ class App extends Component {
         </div>
        
 
-        </div>
       </div>
     );
   }
