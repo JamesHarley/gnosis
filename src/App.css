@@ -4,6 +4,7 @@
   margin-left:auto;
   margin-right:auto;
  z-index: 1;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .App-inner{
   opacity: 1;
@@ -12,7 +13,7 @@
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 100px;
-  text-shadow: 0 2rem 2rem rgba(0, 0, 0, 2);
+  opacity: .75;  
 }
 
 .App-header {
@@ -33,7 +34,7 @@
   font-size: large;
 }
 html{
-  background: url('./forest.png') no-repeat top fixed ; 
+  background: url('./sky.png') no-repeat top fixed ; 
   color:white;
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, 1);
   height:100%;
@@ -41,11 +42,11 @@ html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 body{
   color: #fff;
   text-shadow: 0.2rem .2rem .3rem rgba(0, 0, 0, 0.863); 
+
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
@@ -53,12 +54,11 @@ body{
 }
 h1{
   opacity: .75;  
-font-size: 5em;
-font-variant-caps: small-caps;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-size: 5em;
+  font-variant-caps: small-caps;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .inner{
   font-size:x-large;
-  
 }
