@@ -21,7 +21,7 @@ class App extends Component {
           <h1 className=""> Gnosis Development</h1>
         </header>
        
-        <div className="inner"> <p className="">Gnosis - The knowledge gained from experience, not theory or estimation</p></div>
+        <div className="inner"> <p className="">Gnosis - the knowledge gained from experience, <br /> not theory or estimation</p></div>
         <div className="App-intro">
           This website is under construction. 
         </div>
@@ -35,8 +35,7 @@ class App extends Component {
             <Route path='/services' component={Services}/>
             <Route path='/contact' component={Contact}/>
           </Switch>
-            <div className="blockquote">Web and Mobile application design and developmnent</div>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            
           </div>
         </div>
        
