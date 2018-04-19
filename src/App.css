@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100px;
+  text-shadow: 0 2rem 2rem rgba(0, 0, 0, 2);
+}
+
+.App-header {
+  background: url('./forest.png') no-repeat top  ; 
+  min-height: 450px;
+  padding: 20px;
+  color: white;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 1);
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  text-shadow: 30 .05rem .1rem rgba(0, 0, 0, .5);
+}
+body,html{
+  background: url('./bg.png');
+  color:white;
+  
+}
+body{
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+ 
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
