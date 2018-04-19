@@ -23,7 +23,6 @@ class App extends Component {
        
         <div className="inner"> <p className="">Gnosis - the knowledge gained from experience, <br /> not theory or estimation</p></div>
         <div className="App-intro">
-          This website is under construction. 
         </div>
         <div className="boxed" >
         <Naver />
