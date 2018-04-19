@@ -62,3 +62,22 @@ h1{
 .inner{
   font-size:x-large;
 }
+.boxed{
+  width:100%;
+  background:url('bg.png');
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.568);
+  margin-top: 100px;
+
+}
+.boxed-inner{
+  max-width:800px;
+  padding:50px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: justify;
+  text-shadow: 0.2rem .2rem .3rem rgba(0, 0, 0, 0.863); 
+
+}
+.gnosis-dev{
+
+}
