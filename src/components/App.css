@@ -72,6 +72,7 @@ h1{
   font-size:x-large;
 }
 .boxed{
+  opacity: .95;
   min-width:500px;
   width:100%;
   background:url('./bg.png');
@@ -126,7 +127,7 @@ h1{
 
 
 
-#Contact{
+#Contact,#Home, #Portfolio, #Services{
   max-width:800px;
   margin-left:auto;
   margin-right:auto;
@@ -254,37 +255,7 @@ to   { opacity: 1; }
 }
 
 
-@keyframes fadeout {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-  from { opacity: 1; }
-  to   { opacity: 0; }
-  }
-  
-  /* Firefox < 16 */
-  @-moz-keyframes fadeout {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-    from { opacity: 1; }
-    to   { opacity: 0; }
-  }
-  
-  /* Safari, Chrome and Opera > 12.1 */
-  @-webkit-keyframes fadeout {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-    from { opacity: 1; }
-    to   { opacity: 0; }
-  }
-  
-  /* Internet Explorer */
-  @-ms-keyframes fadeout {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-    from { opacity: 1; }
-    to   { opacity: 0; }
-  }
-  
+
  #PortfolioGallery{
    max-width:700px;
   

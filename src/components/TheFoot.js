@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import reactor from './logo.svg';
 
 class TheFoot extends Component {
     render() {
