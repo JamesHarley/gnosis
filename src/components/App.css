@@ -40,7 +40,7 @@
   font-size: large;
 }
 
-html,body{
+html{
   background: url('./sky.png') no-repeat top fixed #010100; 
   color:white;
   height:100%;
@@ -51,6 +51,7 @@ html,body{
   
 }
 body{
+  background:none;
   color: #fff;
   text-shadow: 0.2rem .2rem .3rem rgba(0, 0, 0, 0.863); 
 
@@ -75,11 +76,17 @@ h1{
   width:100%;
   background:url('./bg.png');
   box-shadow: inset 0 0 5rem rgba(4, 20, 39, 0.9);
-  margin-top: 100px;
+  margin-top: 60px;
   height:100%;
   position:relative;
-
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
 }
+
+
 .boxed-inner{
   padding:30px;
   text-align: justify;
@@ -185,12 +192,19 @@ h1{
 }
 
 #Home p, #Portfolio p, #Services p,#Contact p{
--webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
--moz-animation: fadein 2s; /* Firefox < 16 */
- -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-     animation: fadein 2s;
+-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+-moz-animation: fadein 4s; /* Firefox < 16 */
+ -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+     animation: fadein 4s;
 }
+#Home h5, #Portfolio h5, #Services h5,#Contact h5{
+  -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 7s; /* Firefox < 16 */
+   -ms-animation: fadein 7s; /* Internet Explorer */
+    -o-animation: fadein 7s; /* Opera < 12.1 */
+       animation: fadein 7s;
+  }
 
 @keyframes fadein {
 from { opacity: 0; }

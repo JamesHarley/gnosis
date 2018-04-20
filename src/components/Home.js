@@ -14,7 +14,7 @@ class Home extends Component {
                     <meta charSet="utf-8" />
                     <title> Application Development | Gnosis Development</title>
                 </Helmet>
-                <div className="blockquote"><i class="fas fa-diagnoses"></i> Application Design and Developmnent </div>
+                <h5><i class="fas fa-diagnoses"></i> Application Design and Developmnent </h5>
                 <p> Gnosis development provides affordable applications with modern technologies. We will work with you to create an application that fits your unique needs. You will work directly with the developer of your application from design to deployment giving you complete control over the process. </p>
                 <p>Some of the services and products we work with:</p>
                 <Icons />    
