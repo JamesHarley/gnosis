@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import logo from './triskal_white.png';
 import './App.css';
 import { Route,  Switch} from 'react-router-dom'
-import {Helmet} from "react-helmet";
-import Home from './components/Home';
-import Portfolio from './components/Portfolio';
-import Services from './components/Services';
-import Contact from './components/Contact';
-import TheFoot from './components/TheFoot'
-import Naver from './components/Naver';
+import Home from './Home';
+import Portfolio from './Portfolio';
+import Services from './Services';
+import Contact from './Contact';
+import TheFoot from './TheFoot'
+import Naver from './Naver';
 
 
 class App extends Component {
@@ -27,13 +26,15 @@ class App extends Component {
         <Naver />
           <div className="boxed-inner">
           
-          <Switch>
-            <Route exact path='/' component={Home}/>
-            <Route path='/portfolio' component={Portfolio}/>
-            <Route path='/services' component={Services}/>
-            <Route path='/contact' component={Contact}/>
-          </Switch>
+          <Switch >
             
+
+              <Route exact path='/' component={Home}/>
+              <Route path='/portfolio' component={Portfolio}/>
+              <Route path='/services' component={Services}/>
+              <Route path='/contact' component={Contact}/>
+            
+          </Switch>
           </div>
         </div>
         <TheFoot />

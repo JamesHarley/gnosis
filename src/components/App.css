@@ -1,0 +1,273 @@
+.App {
+  min-width:500px;
+  text-align: center;
+  height: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  z-index: 1;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100px;
+  opacity: .75;  
+}
+
+.App-header {
+  text-shadow: 0.2rem .2rem .3rem darkblue; 
+  width:500px;
+  padding: 20px;
+  color: white;
+  margin-left:auto;
+  margin-right:auto;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+-moz-animation: fadein 4s; /* Firefox < 16 */
+ -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+     animation: fadein 4s;
+  
+}
+.lorem{
+  width:800px
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+html,body{
+  background: url('./sky.png') no-repeat top fixed #010100; 
+  color:white;
+  height:100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+body{
+  color: #fff;
+  text-shadow: 0.2rem .2rem .3rem rgba(0, 0, 0, 0.863); 
+
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+h1{
+  text-align: center;
+  opacity: .75;  
+  font-size: 2.5em;
+  font-variant-caps: small-caps;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.inner{
+  font-size:x-large;
+}
+.boxed{
+  min-width:500px;
+  width:100%;
+  background:url('./bg.png');
+  box-shadow: inset 0 0 5rem rgba(4, 20, 39, 0.9);
+  margin-top: 100px;
+  height:100%;
+  position:relative;
+
+}
+.boxed-inner{
+  padding:30px;
+  text-align: justify;
+  text-shadow: 0.2rem .2rem .3rem darkblue; 
+}
+
+
+
+.gnostic-menu{
+  width:500px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.nav{
+  min-width:500px;
+  font-size: 1.3em;
+  text-align:center;
+}
+.nav-item a{
+  font-size: 1em;
+  color:#399dd6;
+}
+.nav-item a:hover{
+  text-align:center;
+  text-shadow: 1px 1px 2px black, 0 0 10px rgb(35, 130, 255), 0 0 5px darkblue;
+
+  color:#2879a6;
+}
+.nav-item .active{
+  text-align:center;
+
+  color:#2879a6;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.568);
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+
+
+#Contact{
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.btn-primary{
+  background-color:#2879a6
+}
+#TheFoot{
+  margin-top:30px;
+  text-shadow: 0.2rem .2rem .3rem darkblue; 
+}
+.reactor{
+  height:60px;
+}
+.powered{
+  margin-top:15px;
+}
+.service-icons{
+  min-width:300px;
+  font-size:2em;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+.service-icons i{
+   margin:10px;
+}
+
+
+
+
+.cog i {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 30px;
+  left: 30px;
+  background: url('./gear.png');
+  -webkit-animation: barrelRoll 2s infinite linear;
+  -webkit-animation-play-state: paused;
+}
+
+.cog i:last-of-type {
+  top: 22px;
+  left: 56px;
+  -webkit-animation-name: invertBarrelRoll;
+}
+
+ div:hover > i {
+  -webkit-animation-play-state: running;
+}
+
+@-webkit-keyframes barrelRoll {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes invertBarrelRoll {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(-360deg); }
+}
+
+#Home p, #Portfolio p, #Services p,#Contact p{
+-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+-moz-animation: fadein 2s; /* Firefox < 16 */
+ -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+     animation: fadein 2s;
+}
+
+@keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+
+@keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+
+@keyframes fadeout {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  from { opacity: 1; }
+  to   { opacity: 0; }
+  }
+  
+  /* Firefox < 16 */
+  @-moz-keyframes fadeout {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    from { opacity: 1; }
+    to   { opacity: 0; }
+  }
+  
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadeout {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    from { opacity: 1; }
+    to   { opacity: 0; }
+  }
+  
+  /* Internet Explorer */
+  @-ms-keyframes fadeout {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    from { opacity: 1; }
+    to   { opacity: 0; }
+  }
+  

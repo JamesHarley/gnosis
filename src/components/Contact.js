@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import '../App.css';
 import {Helmet } from 'react-helmet';
+
 import * as emailjs from 'emailjs-com';
+
 emailjs.init("user_W47IyeDlLU77G9jq8MYd2");
 
 
@@ -122,12 +123,13 @@ class Contact extends Component {
         <div id="Contact"> 
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Contact | GnosisDevelopment</title>
-      </Helmet>
-              <h3>Contact Us</h3>
-                <div className="spacer-sm"></div>
+          <title>Contact | Gnosis Development</title>
+        </Helmet>
+              <h5> <i className="fas fa-envelope"></i> Contact Us</h5>
+               <p>
                 Contact us for quotes on your next app: <br />
                 <ContactForm />
+                </p>
 
            
             <p className="spacer"></p>  
