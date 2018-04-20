@@ -285,3 +285,7 @@ to   { opacity: 1; }
     to   { opacity: 0; }
   }
   
+ #PortfolioGallery{
+   max-width:700px;
+  
+  }

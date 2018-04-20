@@ -1,17 +1,62 @@
 import React, { Component } from 'react';
+import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
+const PHOTO_SET = [
+    {
+      src: '/photos/gd1.png',
+      width: 4,
+      height: 3
+    },
+    {
+      src: '/photos/gd2.png',
+      width: 4,
+      height: 3
+    },
+];
 
 class PortfolioGallery extends Component {
+    constructor() {
+        super();
+        this.state = { currentImage: 0 };
+        this.closeLightbox = this.closeLightbox.bind(this);
+        this.openLightbox = this.openLightbox.bind(this);
+        this.gotoNext = this.gotoNext.bind(this);
+        this.gotoPrevious = this.gotoPrevious.bind(this);
+      }
+      openLightbox(event, obj) {
+        this.setState({
+          currentImage: obj.index,
+          lightboxIsOpen: true,
+        });
+      }
+      closeLightbox() {
+        this.setState({
+          currentImage: 0,
+          lightboxIsOpen: false,
+        });
+      }
+      gotoPrevious() {
+        this.setState({
+          currentImage: this.state.currentImage - 1,
+        });
+      }
+      gotoNext() {
+        this.setState({
+          currentImage: this.state.currentImage + 1,
+        });
+      }
     render() {
         return (
             <div id="PortfolioGallery">
-                <Helmet>
-                    <meta charSet="utf-8" />
-                    <title>Portfolio | Gnosis Development</title>
-                </Helmet>
-                <h5><i class="fas fa-briefcase"></i> Portfolio</h5>
-                <a href="http://github.com/jamesharley">Github</a> --- To protect clients code, most of the projects are private repositories. Once contacted we can provide temporary access to serious clients. 
+                <Gallery photos={PHOTO_SET} onClick={this.openLightbox} />
+                    <Lightbox images={PHOTO_SET}
+                    onClose={this.closeLightbox}
+                    onClickPrev={this.gotoPrevious}
+                    onClickNext={this.gotoNext}
+                    currentImage={this.state.currentImage}
+                    isOpen={this.state.lightboxIsOpen}
+                />
             </div>
         );
     }
