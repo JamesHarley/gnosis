@@ -5,6 +5,11 @@ import * as emailjs from 'emailjs-com';
 
 emailjs.init("user_W47IyeDlLU77G9jq8MYd2");
 
+const resetForm =(form)=>{
+    this.setState({
+       isSubmit:false
+    })
+}
 
 class ContactForm extends React.Component {
     constructor(props) {
@@ -20,14 +25,17 @@ class ContactForm extends React.Component {
       this.handleSubmit = this.handleSubmit.bind(this);
       this.handleInputChange = this.handleInputChange.bind(this);
     }
+    
     handleSubmit(event) {
       this.setState({
         isSubmit: true, 
       });
       event.preventDefault();
-
+      {this.state.email !== '' && this.state.firstname !== '' 
+      && this.state.lastName !=='' && this.state.infoText !== '' &&
+      
       // parameters: service_id, template_id, template_parameters
-        emailjs.send("gmail","gnosiscontact",{firstName: this.state.firstName, lastName: this.state.lastName, email:this.state.email, infoText: this.state.infoText})
+        emailjs.send("gmail","gnosiscontact2",{firstName: this.state.firstName, lastName: this.state.lastName, email:this.state.email, infoText: this.state.infoText})
         .then(function(response) {
           alert("Message Sent!", response.status, response.text);
           React.findDOMNode(this.refs.form).reset();
@@ -36,7 +44,9 @@ class ContactForm extends React.Component {
           alert("Error please refresh page and try again. If issue continues notify goddesscats.us@gmail.com");
           console.log("FAILED. error=", err);
           
-        });
+        });}
+       
+         
     }
     handleInputChange(event) {
       const target = event.target;
@@ -102,6 +112,7 @@ class ContactForm extends React.Component {
             </div>
             </form>
             )}
+            {this.state.email === '' && (<p>Please enter an email</p>) && <formReset />}
             {this.state.isSubmit === true && (<p>Thank you for contacting us. We will be in touch shortly!</p>)}
         </div>
       );

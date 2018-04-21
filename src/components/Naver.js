@@ -7,6 +7,7 @@ class Naver extends Component {
       
       <nav className="gnostic-menu">
         <ul className="nav">
+          <li className="nav-spacer"></li>
           <li className="nav-item">
             <Link 
             activeClassName="active"

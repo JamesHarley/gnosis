@@ -22,8 +22,8 @@
   margin-left:auto;
   margin-right:auto;
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
--moz-animation: fadein 4s; /* Firefox < 16 */
- -ms-animation: fadein 4s; /* Internet Explorer */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
   -o-animation: fadein 4s; /* Opera < 12.1 */
      animation: fadein 4s;
   
@@ -48,7 +48,6 @@ html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
 }
 body{
   background:none;
@@ -105,6 +104,9 @@ h1{
   min-width:500px;
   font-size: 1.3em;
   text-align:center;
+}
+.nav-spacer{
+  width:25px;
 }
 .nav-item a{
   font-size: 1em;
