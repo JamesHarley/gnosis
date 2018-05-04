@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "forever-service": "^0.5.11",
     "bootstrap": "^4.1.0",
     "emailjs-com": "^2.1.1",
     "jquery": "^3.3.1",
