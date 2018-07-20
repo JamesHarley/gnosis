@@ -141,6 +141,17 @@ h1{
   margin-top:30px;
   text-shadow: 0.2rem .2rem .3rem darkblue; 
 }
+ #TheFoot a{
+  color: rgb(160, 142, 202);
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: rgb(137, 67, 179);
+}
+ #TheFoot a:hover{
+   text-decoration: none;
+   color: rgb(137, 67, 179);
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: rgb(160, 142, 202);
+}
 .reactor{
   height:60px;
 }
