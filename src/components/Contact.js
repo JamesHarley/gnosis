@@ -35,13 +35,13 @@ class ContactForm extends React.Component {
       && this.state.lastName !=='' && this.state.infoText !== '' &&
       
       // parameters: service_id, template_id, template_parameters
-        emailjs.send("gmail","gnosiscontact2",{firstName: this.state.firstName, lastName: this.state.lastName, email:this.state.email, infoText: this.state.infoText})
+        emailjs.send("gmail","gnosiscontact",{firstName: this.state.firstName, lastName: this.state.lastName, email:this.state.email, infoText: this.state.infoText})
         .then(function(response) {
           alert("Message Sent!", response.status, response.text);
           React.findDOMNode(this.refs.form).reset();
         }, function(err) {
           
-          alert("Error please refresh page and try again. If issue continues notify goddesscats.us@gmail.com");
+          alert("Error please refresh page and try again. If issue continues notify gnosisdevelops@gmail.com");
           console.log("FAILED. error=", err);
           
         });}
