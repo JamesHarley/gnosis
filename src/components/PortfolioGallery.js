@@ -3,6 +3,16 @@ import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
 const PHOTO_SET = [
+  {
+    src: '/photos/arduinoBTWeatherStation.png',
+    width: 4,
+    height: 3
+  },
+  {
+    src: '/photos/knowYourRights.png',
+    width: 4,
+    height: 3
+  },
     {
       src: '/photos/gd1.png',
       width: 4,

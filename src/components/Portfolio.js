@@ -14,7 +14,7 @@ class Portfolio extends Component {
                 <p><a href="http://github.com/jamesharley">Github</a> --- 
                 To protect clients code, most of the projects are private repositories.
                  Once contacted we can provide temporary access to serious clients. </p>
-                 <p>Last Project:</p>
+                 <p>Lastest Projects:</p>
                  <PortfolioGallery />
             </div>
         );
