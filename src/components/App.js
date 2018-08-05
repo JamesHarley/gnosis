@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './triskal_white.png';
+import logo from './triskal_white.svg';
 import './App.css';
 import { Route,  Switch} from 'react-router-dom'
 import Home from './Home';
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <object type="image/svg+xml" data={logo} className="App-logo" alt="logo" />
           <br />
           <h1 className=""> <p>Gnosis Development</p></h1>
         </header>
