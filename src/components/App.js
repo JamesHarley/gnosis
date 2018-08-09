@@ -7,6 +7,7 @@ import Portfolio from './Portfolio';
 import Services from './Services';
 import Contact from './Contact';
 import TheFoot from './TheFoot'
+import NoMatch from './NoMatch';
 import Naver from './Naver';
 
 
@@ -33,6 +34,7 @@ class App extends Component {
               <Route path='/portfolio' component={Portfolio}/>
               <Route path='/services' component={Services}/>
               <Route path='/contact' component={Contact}/>
+              <Route component={NoMatch}/>
             
           </Switch>
           </div>
