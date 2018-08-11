@@ -8,7 +8,7 @@ glcloud deploy.txt
 
 # production
 /build
-
+/resources
 # misc
 .DS_Store
 .env.local

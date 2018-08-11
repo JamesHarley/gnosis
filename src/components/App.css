@@ -110,6 +110,7 @@ h1{
 .nav-item a{
   font-size: 1em;
   color:#399dd6;
+  transition: all .2s ease-in-out;
 }
 
 .nav-link{
@@ -122,6 +123,8 @@ h1{
   text-shadow: 1px 1px 2px black, 0 0 10px rgb(35, 130, 255), 0 0 5px darkblue;
 animation: navGlow 1s ease-out infinite alternate;
   color:#2879a6;
+  transform: scale(1.1);
+
 }
 .nav-item .active{
   text-align:center;
@@ -131,7 +134,10 @@ animation: navGlow 1s ease-out infinite alternate;
 }
 
 
-
+a:hover{
+  text-decoration: none;
+  color: rgb(137, 67, 179);
+}
 
 #Contact,#Home, #Portfolio, #Services{
   max-width:800px;
@@ -169,12 +175,16 @@ animation: navGlow 1s ease-out infinite alternate;
   text-align: center;
   margin-left:auto;
   margin-right:auto;
-
 }
 .service-icons i{
    margin:10px;
+   
+  transition: all .2s ease-in-out;
 }
-
+.service-icons i:hover{
+  margin:10px;
+  transform: scale(1.5);
+}
 
 
 .cogger{
@@ -231,6 +241,10 @@ animation: navGlow 1s ease-out infinite alternate;
     background: linear-gradient(#333, #222329);
     animation: glowBlue 5s ease-out infinite alternate;
     border-radius: 15px;
+    transition: all .2s ease-in-out;
+  }
+  #service-card:hover{
+    transform: scale(1.1);
   }
   #service-card i{
     display: block;
@@ -239,10 +253,11 @@ animation: navGlow 1s ease-out infinite alternate;
     color:#399dd6
   }
   #service-card h5{
+    
     color:#399dd6
   }
   #service-card p{
-    text-align: justify
+    text-align: left
   }
   .clr{
     clear: both;
@@ -281,8 +296,31 @@ animation: navGlow 1s ease-out infinite alternate;
 .fa-react{
   animation: App-logo-spin infinite 40s linear;
 }
+.form-group input:focus , .form-group textarea:focus{
+	animation: glow 800ms ease-out infinite alternate;
+	border-color: #393;
+	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+  outline: none;
+}
 
-/** Animations **/
+
+
+ .form-group input, .form-group textarea{
+	border: 1px solid #444;
+	border-radius: 5px 0 0 5px;
+	font-size: 13px;
+	height: 40px;
+	margin: 0;
+	padding: 0 10px;
+}
+.form-group text-area{
+  line-height: 300px;
+}
+
+/** Animations 
+**
+**
+**/
 
 
 @-webkit-keyframes barrelRoll {
@@ -301,7 +339,7 @@ animation: navGlow 1s ease-out infinite alternate;
   }	
   100% {
   border-color: rgb(102, 255, 235);
-  box-shadow: 0 0 20px rgba(0, 132, 255, 0.6), inset 0 0 10px rgba(68, 0, 255, 0.4), 0 2px 0 #000;
+  box-shadow: 0 0 30px rgba(0, 132, 255, 0.6), inset 0 0 10px rgba(68, 0, 255, 0.4), 0 2px 0 #000;
   }
 }
 @keyframes fadein {
@@ -365,3 +403,15 @@ animation: navGlow 1s ease-out infinite alternate;
       text-shadow: 1px 1px 2px black, 0 0 10px rgb(35, 130, 255), 0 0 5px darkblue;
     }
   }
+
+
+@keyframes glow {
+    0% {
+		border-color: #393;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #6f6;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}

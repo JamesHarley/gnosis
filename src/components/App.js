@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './triskal_white.svg';
+import logoP from './triskal_white.png';
 import './App.css';
 import { Route,  Switch} from 'react-router-dom'
 import Home from './Home';
@@ -16,7 +17,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <object type="image/svg+xml" data={logo} className="App-logo" alt="logo">Your browser does not support SVG images</object>
+          <object type="image/svg+xml" data={logo} className="App-logo" alt="logo">
+            <img src={logoP} alt="logo"  className="App-logo"/>
+          </object>
           <br />
           <h1 className=""> <p>Gnosis Development</p></h1>
         </header>

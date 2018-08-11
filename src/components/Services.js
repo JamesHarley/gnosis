@@ -18,7 +18,7 @@ class Services extends Component {
                         <i class="fab fa-android  fa-3x"></i> 
                         <h5>Android development</h5>
                         <p>Native Android applications designed and developed in house</p>
-                        <p><a href="https://play.google.com/store/apps/developer?id=Gnosis+Development"> A couple samples available in GooglePlay </a></p>
+                        <p><a href="https://play.google.com/store/apps/developer?id=Gnosis+Development"> Samples available in GooglePlay </a></p>
                 </div>
                 <div id="service-card">
                         <i class="fab fa-react fa-3x"></i> 
