@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Icons from './Icons'
 
 class NoMatch extends Component {
     render() {

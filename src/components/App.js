@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <object type="image/svg+xml" data={logo} className="App-logo" alt="logo" />
+          <object type="image/svg+xml" data={logo} className="App-logo" alt="logo">Your browser does not support SVG images</object>
           <br />
           <h1 className=""> <p>Gnosis Development</p></h1>
         </header>

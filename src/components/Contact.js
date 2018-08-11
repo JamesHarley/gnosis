@@ -1,3 +1,4 @@
+import ReactDOM from 'react-dom';
 import React, { Component } from 'react';
 import {Helmet } from 'react-helmet';
 
@@ -5,11 +6,6 @@ import * as emailjs from 'emailjs-com';
 
 emailjs.init("user_W47IyeDlLU77G9jq8MYd2");
 
-const resetForm =(form)=>{
-    this.setState({
-       isSubmit:false
-    })
-}
 
 class ContactForm extends React.Component {
     constructor(props) {
@@ -31,20 +27,20 @@ class ContactForm extends React.Component {
         isSubmit: true, 
       });
       event.preventDefault();
-      {this.state.email !== '' && this.state.firstname !== '' 
+      this.state.email !== '' && this.state.firstname !== '' 
       && this.state.lastName !=='' && this.state.infoText !== '' &&
       
       // parameters: service_id, template_id, template_parameters
         emailjs.send("gmail","gnosiscontact",{firstName: this.state.firstName, lastName: this.state.lastName, email:this.state.email, infoText: this.state.infoText})
         .then(function(response) {
-          alert("Message Sent!", response.status, response.text);
-          React.findDOMNode(this.refs.form).reset();
+          /**alert("Message Sent!", response.status, response.text);**/
+          ReactDOM.findDOMNode(this.refs.form).reset();
         }, function(err) {
           
           alert("Error please refresh page and try again. If issue continues notify gnosisdevelops@gmail.com");
           console.log("FAILED. error=", err);
           
-        });}
+        });
        
          
     }

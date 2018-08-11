@@ -19,6 +19,7 @@ class Icons extends Component {
                 <i class="fab fa-wordpress"></i> 
                 <i class="fab fa-linux"></i>
                 <i class="fab fa-react"></i>
+                <i class="fab fa-html5"></i>
             </p>
         );
     }

@@ -59,6 +59,7 @@ class PortfolioGallery extends Component {
     render() {
         return (
             <div id="PortfolioGallery">
+              <div className="center-box">
                 <Gallery photos={PHOTO_SET} onClick={this.openLightbox} />
                     <Lightbox images={PHOTO_SET}
                     onClose={this.closeLightbox}
@@ -67,6 +68,7 @@ class PortfolioGallery extends Component {
                     currentImage={this.state.currentImage}
                     isOpen={this.state.lightboxIsOpen}
                 />
+              </div>
             </div>
         );
     }
