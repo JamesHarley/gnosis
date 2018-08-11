@@ -4,6 +4,7 @@
   height: 100%;
   margin-left:auto;
   margin-right:auto;
+  
   z-index: 1;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
@@ -55,10 +56,7 @@ body{
   text-shadow: 0.2rem .2rem .3rem rgba(0, 0, 0, 0.863); 
 
 }
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+
 h1{
   text-align: center;
   opacity: .75;  
@@ -113,6 +111,7 @@ h1{
   font-size: 1em;
   color:#399dd6;
 }
+
 .nav-link{
   
   margin-right:-10px;
@@ -121,7 +120,7 @@ h1{
 .nav-item a:hover{
   text-align:center;
   text-shadow: 1px 1px 2px black, 0 0 10px rgb(35, 130, 255), 0 0 5px darkblue;
-
+animation: navGlow 1s ease-out infinite alternate;
   color:#2879a6;
 }
 .nav-item .active{
@@ -179,7 +178,7 @@ h1{
 
 
 .cogger{
-  margin-bottom:-27px;
+  margin-bottom:-28px;
 }
 .cog  {
   -webkit-animation: barrelRoll 8s infinite linear;
@@ -196,16 +195,7 @@ h1{
   -webkit-animation: invertBarrelRoll 8s infinite linear;;
 }
 
-@-webkit-keyframes barrelRoll {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@-webkit-keyframes invertBarrelRoll {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(-360deg); }
-}
-
+  
 #Home p, #Portfolio p, #Services p,#Contact p{
 -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
 -moz-animation: fadein 4s; /* Firefox < 16 */
@@ -220,54 +210,6 @@ h1{
     -o-animation: fadein 7s; /* Opera < 12.1 */
        animation: fadein 7s;
   }
-
-@keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-
-@keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
 
 
  #PortfolioGallery{
@@ -305,16 +247,6 @@ to   { opacity: 1; }
   .clr{
     clear: both;
   }
-  @keyframes glowBlue {
-    0% {
-		border-color: rgb(35, 130, 255);
-		box-shadow: 0 0 5px rgba(0, 59, 114, 0.829), inset 0 0 5px rgba(0, 53, 114,.1), 0 2px 0 #000;
-    }	
-    100% {
-		border-color: rgb(102, 255, 235);
-		box-shadow: 0 0 20px rgba(0, 132, 255, 0.6), inset 0 0 10px rgba(68, 0, 255, 0.4), 0 2px 0 #000;
-    }
-}
 
 .react-photo-gallery--gallery img{
   animation: glowBlue 5s ease-out infinite alternate;
@@ -332,7 +264,7 @@ to   { opacity: 1; }
   margin-right:auto;
 }
 .center-box{
-  max-width: 600px;
+  max-width: 580px;
   margin-left:auto;
   margin-right:auto;
 
@@ -349,3 +281,87 @@ to   { opacity: 1; }
 .fa-react{
   animation: App-logo-spin infinite 40s linear;
 }
+
+/** Animations **/
+
+
+@-webkit-keyframes barrelRoll {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes invertBarrelRoll {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(-360deg); }
+}
+@keyframes glowBlue {
+  0% {
+  border-color: rgb(35, 130, 255);
+  box-shadow: 0 0 5px rgba(0, 59, 114, 0.829), inset 0 0 5px rgba(0, 53, 114,.1), 0 2px 0 #000;
+  }	
+  100% {
+  border-color: rgb(102, 255, 235);
+  box-shadow: 0 0 20px rgba(0, 132, 255, 0.6), inset 0 0 10px rgba(68, 0, 255, 0.4), 0 2px 0 #000;
+  }
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+  
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+  
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+  
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+  
+  
+  @keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+  
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+  
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+  
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  @keyframes navGlow {
+    from {
+      text-shadow: 0 0 5px rgba(0, 59, 114, 0.829), 0 0 5px rgba(0, 53, 114,.1), 0 2px 0 #000;
+    }	
+    to {  
+      text-shadow: 1px 1px 2px black, 0 0 10px rgb(35, 130, 255), 0 0 5px darkblue;
+    }
+  }
