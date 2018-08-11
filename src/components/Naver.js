@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
 
+import gear from './gear.svg';
 class Naver extends Component {
   render() {
     return (
@@ -28,8 +29,12 @@ class Naver extends Component {
             <Link className="nav-link" 
               activeClassName="active"
               to="/services">
-                <i className="fas fa-cogs"></i> <br />Services
-              </Link>
+                <div className="cogger">
+                  <i className="cog fas fa-cog fa-1x"></i>
+                  <i className="cog2 fas fa-cog fa-1.5x"></i>
+                </div>
+                <br />Services        
+            </Link>
           </li>
           <li className="nav-item">
             <Link 

@@ -178,27 +178,22 @@ h1{
 
 
 
+.cogger{
+  margin-bottom:-27px;
+}
+.cog  {
+  -webkit-animation: barrelRoll 8s infinite linear;
 
-.cog i {
+}
+
+.cog2 {
   display: block;
   position: relative;
-  width: 30px;
-  height: 30px;
-  top: 30px;
-  left: 30px;
-  background: url('./gear.png');
-  -webkit-animation: barrelRoll 2s infinite linear;
-  -webkit-animation-play-state: paused;
-}
-
-.cog i:last-of-type {
-  top: 22px;
-  left: 56px;
-  -webkit-animation-name: invertBarrelRoll;
-}
-
- div:hover > i {
-  -webkit-animation-play-state: running;
+  margin-top: 8px;
+  left: 16px;
+  float:left;
+  text-shadow: none;
+  -webkit-animation: invertBarrelRoll 8s infinite linear;;
 }
 
 @-webkit-keyframes barrelRoll {
