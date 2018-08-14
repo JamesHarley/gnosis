@@ -107,7 +107,7 @@ h1{
 .nav-spacer{
   width:0px;
 }
-.nav-item a{
+.nav-item a, .nav-item a:visited{
   font-size: 1em;
   color:#399dd6;
   transition: all .2s ease-in-out;
@@ -124,8 +124,8 @@ h1{
 animation: navGlow 1s ease-out infinite alternate;
   color:#2879a6;
   transform: scale(1.1);
-
 }
+
 .nav-item .active{
   text-align:center;
   color:#2879a6;
@@ -138,7 +138,9 @@ a:hover{
   text-decoration: none;
   color: rgb(137, 67, 179);
 }
-
+a:visited{
+  color:green;
+}
 #Contact,#Home, #Portfolio, #Services{
   max-width:800px;
   margin-left:auto;
@@ -414,4 +416,10 @@ a:hover{
 		border-color: #6f6;
 		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
     }
+}
+.leads ul{
+ margin:0
+}
+.leads li  {
+  list-style: none;
 }

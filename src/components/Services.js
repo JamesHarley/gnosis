@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import Icons from './Icons'
+import Helmet from 'react-helmet';
 
 class Services extends Component {
     render() {
         return (
           <div id="Services">
+          <Helmet>
+                <meta charSet="utf-8" />
+                <title> Services | Gnosis Development</title>
+            </Helmet>
             <h5><i class="fas fa-cloud"></i> Services</h5>
             <p> Fast agile device independent apps is the Gnosis Development specialization. 
             We can build your project to work anywhere and everywhere. 
