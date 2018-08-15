@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+
 class Naver extends Component {
   render() {
     return (
     
-      <nav className="gnostic-menu  navbar-expand-custom bg-inverse">
+      <nav className="gnostic-menu  navbar-expand-custom bg-inverse ">
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
       </button>
@@ -12,35 +13,35 @@ class Naver extends Component {
           <ul className="nav navbar-nav mr-auto">
             <li className="nav-spacer"></li>
             <li className="nav-item">
-              <Link 
+              <NavLink 
               className="nav-link" 
-              to="/">
+              to="/" activeClassName="selected">
                 <i className="fas fa-circle-notch"></i><br />Gnosis Dev
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link 
+              <NavLink 
               className="nav-link portlink" 
-              to="/portfolio">
+              to="/portfolio" >
                 <i className="fab fa-github"></i> <br />Portfolio
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item cogitem">
-              <Link className="nav-link cognav" 
+              <NavLink className="nav-link cognav" 
                 to="/services">
                   <div className="cogger">
                     <i className="cog fas fa-cog "></i>
                     <i className="cog2 fas fa-cog "></i>
                   </div>
                   <br />Services        
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link 
+              <NavLink 
                 className="nav-link" 
                 to="/contact">
                 <i className="fas fa-envelope"></i><br />Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
