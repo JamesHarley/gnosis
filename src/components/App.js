@@ -30,6 +30,7 @@ class App extends Component {
         </div>
         <div className="boxed" >
         <Naver />
+          
           <div className="boxed-inner">
           <Switch >
             <Route exact path='/' component={Home}/>

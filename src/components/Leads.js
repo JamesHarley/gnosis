@@ -9,7 +9,7 @@ class Leads extends Component {
             <div id="Leads">
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title> Application Development | Gnosis Development</title>
+                    <title> Leads | Gnosis Development</title>
                 </Helmet>
                <LeadFeed />
             </div>

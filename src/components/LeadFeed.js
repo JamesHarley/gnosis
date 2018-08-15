@@ -30,7 +30,7 @@ export default class LeadFeed extends React.Component {
 
           <h5>Gigs</h5>
           { this.state.leadgig.map(g =>
-                <li>{g.date}: <br /> <a href={g.link}>{g.title}</a></li>
+                <li> <a href={g.link}>{g.title}</a><br />{g.date}</li>
           )        
           
           }
@@ -38,7 +38,7 @@ export default class LeadFeed extends React.Component {
         <ul className="leads">
           <h5>Remote Job Leads</h5>
           { this.state.leadremote.map(g =>
-                <li>{g.date}: <br />  <a href={g.link}>{g.title}</a></li>
+                <li><a href={g.link}>{g.title}</a><br /> {g.date}</li>
               )         
           
           }
