@@ -34,6 +34,7 @@ class App extends Component {
           <div className="boxed-inner">
           <Switch >
             <Route exact path='/' component={Home}/>
+            <Route path='/home' component={Home}/>
             <Route path='/portfolio' component={Portfolio}/>
             <Route path='/services' component={Services}/>
             <Route path='/contact' component={Contact}/>

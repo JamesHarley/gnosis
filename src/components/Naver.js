@@ -15,7 +15,7 @@ class Naver extends Component {
             <li className="nav-item">
               <NavLink 
               className="nav-link" 
-              to="/" activeClassName="selected">
+              to="/home" >
                 <i className="fas fa-circle-notch"></i><br />Gnosis Dev
               </NavLink>
             </li>
