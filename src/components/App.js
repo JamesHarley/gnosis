@@ -31,17 +31,13 @@ class App extends Component {
         <div className="boxed" >
         <Naver />
           <div className="boxed-inner">
-          
           <Switch >
-            
-
-              <Route exact path='/' component={Home}/>
-              <Route path='/portfolio' component={Portfolio}/>
-              <Route path='/services' component={Services}/>
-              <Route path='/contact' component={Contact}/>
-              <Route path='/leads' component={Leads}/>
-              <Route component={NoMatch}/>
-            
+            <Route exact path='/' component={Home}/>
+            <Route path='/portfolio' component={Portfolio}/>
+            <Route path='/services' component={Services}/>
+            <Route path='/contact' component={Contact}/>
+            <Route path='/leads' component={Leads}/>
+            <Route component={NoMatch}/>
           </Switch>
           </div>
         </div>
