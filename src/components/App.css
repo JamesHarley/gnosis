@@ -65,6 +65,14 @@ h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+a:hover{ 
+  color:#6f6;
+  text-decoration: none;
+}
+a{
+  color:#2fff;
+ 
+}
 .inner{
   font-size:x-large;
 }
@@ -199,13 +207,6 @@ a.nav-link.active {
 }
 
 
-a:hover{
-  text-decoration: none;
-  color: rgb(137, 67, 179);
-}
-a:visited{
-  color:green;
-}
 #Contact,#Home, #Portfolio, #Services{
   max-width:800px;
   margin-left:auto;
@@ -219,19 +220,18 @@ a:visited{
   text-shadow: 0.2rem .2rem .3rem darkblue; 
 }
  #TheFoot a{
-  color: rgb(160, 142, 202);
   -webkit-text-stroke-width: .1px;
   -webkit-text-stroke-color: rgb(137, 67, 179);
 }
  #TheFoot a:hover{
    text-decoration: none;
-   color: rgb(137, 67, 179);
   -webkit-text-stroke-width: .1px;
   -webkit-text-stroke-color: rgb(160, 142, 202);
 }
 .reactor{
   height:60px;
 }
+
 .powered{
   margin-top:15px;
 }
