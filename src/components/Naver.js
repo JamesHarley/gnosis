@@ -4,9 +4,9 @@ class Naver extends Component {
   render() {
     return (
     
-      <nav className="gnostic-menu  navbar-expand-sm">
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <i className="fas fa-circle-notch"></i><br />Menu
+      <nav className="gnostic-menu  navbar-expand-custom bg-inverse">
+      <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="nav navbar-nav mr-auto">
@@ -25,7 +25,7 @@ class Naver extends Component {
                 <i className="fab fa-github"></i> <br />Portfolio
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item cogitem">
               <Link className="nav-link cognav" 
                 to="/services">
                   <div className="cogger">
