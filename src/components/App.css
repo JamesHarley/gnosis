@@ -83,7 +83,12 @@ h1{
   -o-animation: fadein 4s; /* Opera < 12.1 */
     animation: fadein 4s;
 }
-
+.navbar-toggler ,.navbar-toggler i{
+  margin-top: 10px;
+  color:#399dd6;
+  transition: all .2s ease-in-out;
+  max-width: 120px;
+}
 
 .boxed-inner{
   padding:30px;
@@ -91,10 +96,38 @@ h1{
  /** text-shadow: 0.2rem .2rem .3rem darkblue; **/
 }
 
+.nav-item .cognav{
 
+  margin-left:25px;
+}
+.nav-item .portlink{
+  margin-right:-25px;
+}
+.cognav{
+  width:80px;
+
+}
+.cogger{
+  margin-bottom:-28px;
+}
+.cog  {
+  -webkit-animation: barrelRoll 8s infinite linear;
+
+}
+
+.cog2 {
+  display: block;
+  position: relative;
+  margin-top: 8px;
+  left: 16px;
+  float:left;
+  text-shadow: none;
+  -webkit-animation: invertBarrelRoll 8s infinite linear;;
+}
 
 .gnostic-menu{
-  max-width:350px;
+  padding-left:25px;
+  max-width:450px;
   margin-left:auto;
   margin-right:auto;
   text-align: center;
@@ -111,12 +144,13 @@ h1{
   font-size: 1em;
   color:#399dd6;
   transition: all .2s ease-in-out;
+  max-width: 120px;
 }
 
 .nav-link{
   
-  margin-right:-10px;
-  margin-left:-10px;
+  margin-right:5px;
+  margin-left:5px;
 }
 .nav-item a:hover{
   text-align:center;
@@ -186,25 +220,6 @@ a:visited{
 .service-icons i:hover{
   margin:10px;
   transform: scale(1.5);
-}
-
-
-.cogger{
-  margin-bottom:-28px;
-}
-.cog  {
-  -webkit-animation: barrelRoll 8s infinite linear;
-
-}
-
-.cog2 {
-  display: block;
-  position: relative;
-  margin-top: 8px;
-  left: 16px;
-  float:left;
-  text-shadow: none;
-  -webkit-animation: invertBarrelRoll 8s infinite linear;;
 }
 
   
