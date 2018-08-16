@@ -281,8 +281,8 @@ a.nav-link.active {
     background: #333;
     width:230px;
     float:left;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:10px;
+    margin-right:10px;
     background: rgb(53, 53, 53);
     margin-top: 15px;
     margin-bottom:15px;
@@ -294,14 +294,11 @@ a.nav-link.active {
     border-radius: 15px;
     transition: all .2s ease-in-out;
     height:280px;
+  
   }
-  .spacer{
-    float:left;
-    height:280px;
-    width:30px;
-    
-  }
+
   #service-card:hover{
+    z-index:99;
     transform: scale(1.1);
   }
   #service-card i{
@@ -321,7 +318,7 @@ a.nav-link.active {
     clear: both;
   }
   .center-box{
-    max-width: 490px;
+    max-width: 500px;
     margin-left:auto;
     margin-right:auto;
   
@@ -391,7 +388,7 @@ a.nav-link.active {
    border: solid  rgb(35, 130, 255) thin;
    padding:10px;
   text-align: left;  
-  transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
  }
   
 .leads li:hover{
