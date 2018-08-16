@@ -18,6 +18,7 @@ class Services extends Component {
             Providing secure, fast, and affordable applications for any business size. </p> 
             <p>We work with your current service providers or can assist in locating appropriate services based on your unique needs. </p>
             
+           <div className="center-box">
                 <div id="service-card">
                         <i className="fab fa-android  fa-3x"></i> 
                         <h5>Android development</h5>
@@ -30,7 +31,10 @@ class Services extends Component {
                         <p> Reactjs and React Native applications developed according to your needs</p>
                         <p>This website is built using Reactjs</p>
                 </div>
-                <div id="service-card">
+            </div>
+            <div className="clr service-space"></div>
+            <div className="center-box">
+            <div id="service-card">
                     <i className="fab fa-wordpress fa-3x"></i> 
                     <h5>Wordpress</h5>
                     <p> Custom wordpress themes, plugins, and maintenance</p>
@@ -44,8 +48,7 @@ class Services extends Component {
                     <p>Combine them and build any website for any purpose. 
                     <br />Contact us for detailed quotes</p>
                 </div>
-                
-                               
+            </div>
 
             <p className="clr service-space">Services and products we work with:</p>
             <Icons />
