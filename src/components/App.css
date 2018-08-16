@@ -327,7 +327,6 @@ a.nav-link.active {
 .react-photo-gallery--gallery img{
   animation: glowBlue 5s ease-out infinite alternate;
   background: #333;
-  float:left;
   background: rgb(53, 53, 53);
   margin-top: 15px;
   margin-bottom:15px;
