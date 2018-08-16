@@ -43,15 +43,15 @@ class Services extends Component {
                 </div>
                 <div id="service-card">
                     <i class="fab fa-wordpress fa-3x"></i> 
-                    <h5>Wordpress </h5>
+                    <h5>Wordpress</h5>
                     <p> Custom wordpress themes, plugins, and maintenance</p>
-                    <p>Wordpress is a great CMS framework to build a platform for sites needing frequent updates. </p>
-                    <br />
+                    <p>Wordpress is a great CMS framework to build a platform for sites needing frequent updates. 
+                    <br />Contact us for detailed quotes</p>
                 </div>
+            
+                
             </div>
             <br />
-            <div className="clr"></div>
-
             <div className="clr"></div>
 
             <p className="service-space">Services and products we work with:</p>
