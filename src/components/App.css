@@ -81,7 +81,7 @@ a{
   opacity: .95;
   /**min-width:500px;**/
   width:100%;
-  background:rgba(4, 20, 39, 0.9);
+  background: linear-gradient( rgba(4, 20, 39, 0.8),rgba(4, 20, 39, 0.9));
   height:100%;
   position:relative;
   padding-bottom:60px;
@@ -262,11 +262,13 @@ a.nav-link.active {
      animation: fadein 4s;
 }
 #Home h5, #Portfolio h5, #Services h5,#Contact h5{
+  text-align: left;
   -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 7s; /* Firefox < 16 */
    -ms-animation: fadein 7s; /* Internet Explorer */
     -o-animation: fadein 7s; /* Opera < 12.1 */
        animation: fadein 7s;
+
   }
 
 
@@ -279,17 +281,25 @@ a.nav-link.active {
     background: #333;
     width:230px;
     float:left;
-    margin:30px;
+    margin-left:auto;
+    margin-right:auto;
     background: rgb(53, 53, 53);
     margin-top: 15px;
     margin-bottom:15px;
     border: solid  rgb(35, 130, 255) thin;
     padding:15px;
     box-shadow: 0 0 5px rgba(0, 59, 114, 0.829);
-    background: linear-gradient(#333, #222329);
+    background: linear-gradient( rgba(4, 20, 39, 0.7), #222329);
     animation: glowBlue 5s ease-out infinite alternate;
     border-radius: 15px;
     transition: all .2s ease-in-out;
+    height:280px;
+  }
+  .spacer{
+    float:left;
+    height:280px;
+    width:30px;
+    
   }
   #service-card:hover{
     transform: scale(1.1);
@@ -301,7 +311,7 @@ a.nav-link.active {
     color:#399dd6
   }
   #service-card h5{
-    
+    text-align: center;
     color:#399dd6
   }
   #service-card p{
@@ -310,7 +320,12 @@ a.nav-link.active {
   .clr{
     clear: both;
   }
-
+  .center-box{
+    max-width: 490px;
+    margin-left:auto;
+    margin-right:auto;
+  
+  }
 .react-photo-gallery--gallery img{
   animation: glowBlue 5s ease-out infinite alternate;
   background: #333;
@@ -326,12 +341,7 @@ a.nav-link.active {
   margin-left:auto;
   margin-right:auto;
 }
-.center-box{
-  max-width: 580px;
-  margin-left:auto;
-  margin-right:auto;
 
-}
 .center-box img{
 
 
@@ -380,8 +390,14 @@ a.nav-link.active {
    list-style: none;
    border: solid  rgb(35, 130, 255) thin;
    padding:10px;
-  text-align: left;
+  text-align: left;  
+  transition: all .2s ease-in-out;
  }
+  
+.leads li:hover{
+  transform: scale(1.1);
+  z-index: 999;
+}
  .leads li  a{
   color:#6f6
  }
@@ -390,6 +406,7 @@ a.nav-link.active {
  .leads li  a:visited{
   color:deeppink
  }
+
 /** Animations 
 **
 **

@@ -25,6 +25,7 @@ class Services extends Component {
                         <p>Native Android applications designed and developed in house</p>
                         <p><a href="https://play.google.com/store/apps/developer?id=Gnosis+Development"> Samples available in GooglePlay </a></p>
                 </div>
+                <div className="spacer"></div>
                 <div id="service-card">
                         <i class="fab fa-react fa-3x"></i> 
                         <h5>React development</h5>
@@ -41,6 +42,7 @@ class Services extends Component {
                     <p>Combine them and build any website for any purpose. 
                     <br />Contact us for detailed quotes</p>
                 </div>
+                <div className="spacer"></div>
                 <div id="service-card">
                     <i class="fab fa-wordpress fa-3x"></i> 
                     <h5>Wordpress </h5>
