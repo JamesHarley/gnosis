@@ -49,6 +49,7 @@ class Services extends Component {
                     <br />
                 </div>
             </div>
+            <br />
             <div className="clr"></div>
 
             <p className="service-space">Services and products we work with:</p>
