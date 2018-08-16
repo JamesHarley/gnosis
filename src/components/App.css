@@ -279,17 +279,15 @@ a.nav-link.active {
     text-align: center;
     background: #333;
     width:230px;
-    
     float:left;
-   
     margin-left:10px;
     margin-right:10px;
-     /**
     background: rgb(53, 53, 53);
     margin-top: 15px;
     margin-bottom:15px;
     border: solid  rgb(35, 130, 255) thin;
     padding:15px;
+    /**
     box-shadow: 0 0 5px rgba(0, 59, 114, 0.829);
     background: linear-gradient( rgba(4, 20, 39, 0.7), #222329);
     animation: glowBlue 5s ease-out infinite alternate;
