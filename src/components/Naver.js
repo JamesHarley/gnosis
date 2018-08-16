@@ -34,7 +34,7 @@ class Naver extends Component {
                     <i className="cog2 fas fa-cog "></i>
                   </div>
                   <br />
-                  <div className="servLink">Service</div>
+                  <div className="servLink">Services</div>
               </NavLink>
             </li>
             <li className="nav-item">
