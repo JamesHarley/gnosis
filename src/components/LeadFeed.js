@@ -29,7 +29,7 @@ export default class LeadFeed extends React.Component {
         <ul className="leads">
 
           <h5>Gigs</h5>
-          { this.state.leadgig.map(g =>
+          { this.state.leadgig.reverse().map(g =>
             <a href={g.link}><li>{g.title}<br /> {g.date}</li></a>
           )        
           

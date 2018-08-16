@@ -369,7 +369,9 @@ a.nav-link.active {
   line-height: 300px;
 }
 
-
+.leads ul{
+  margin:none;
+}
 .leads {
   margin-left:auto;
   margin-right:auto;
@@ -379,18 +381,20 @@ a.nav-link.active {
  .leads li  {
   box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
   opacity: .95;
-  /**min-width:500px;**/
   background:rgba(4, 20, 39, 0.9);
-   list-style: none;
-   border: solid  rgb(35, 130, 255) thin;
-   padding:10px;
+  list-style: none;
+  border: solid  rgb(35, 130, 255) thin;
+  border-radius: 5px;
+  padding:10px;
   text-align: left;  
   transition: all .5s ease-in-out;
+  margin-top:4px;
  }
   
 .leads li:hover{
   transform: scale(1.1);
   z-index: 999;
+  
 }
  .leads   a{
   color:#6f6
@@ -400,7 +404,9 @@ a.nav-link.active {
  .leads   a:visited{
   color:deeppink
  }
-
+.leadsFeed{
+  margin-left:-40px;
+}
 /** Animations 
 **
 **
