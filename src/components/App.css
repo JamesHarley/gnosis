@@ -286,8 +286,8 @@ a.nav-link.active {
     margin-top: 15px;
     margin-bottom:15px;
     border: solid  rgb(35, 130, 255) thin;
-    padding:15px;
-    /**
+    /** padding:15px;
+   
     box-shadow: 0 0 5px rgba(0, 59, 114, 0.829);
     background: linear-gradient( rgba(4, 20, 39, 0.7), #222329);
     animation: glowBlue 5s ease-out infinite alternate;
