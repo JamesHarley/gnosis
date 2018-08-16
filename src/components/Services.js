@@ -47,6 +47,7 @@ class Services extends Component {
                     <p> PHP, HTML5, CSS3, and Javascript. With a dash of SQL. </p>
                     <p>Combine them and build any website for any purpose. 
                     <br />Contact us for detailed quotes</p>
+                    <br />
                 </div>
             </div>
 
