@@ -281,9 +281,10 @@ a.nav-link.active {
     width:230px;
     
     float:left;
-    /**
+   
     margin-left:10px;
     margin-right:10px;
+     /**
     background: rgb(53, 53, 53);
     margin-top: 15px;
     margin-bottom:15px;
