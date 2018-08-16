@@ -398,12 +398,12 @@ a.nav-link.active {
   transform: scale(1.1);
   z-index: 999;
 }
- .leads li  a{
+ .leads   a{
   color:#6f6
  }
 
 
- .leads li  a:visited{
+ .leads   a:visited{
   color:deeppink
  }
 
