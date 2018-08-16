@@ -48,11 +48,11 @@ class Services extends Component {
                     <p>Wordpress is a great CMS framework to build a platform for sites needing frequent updates. 
                     <br />Contact us for detailed quotes</p>
                 </div>
-            
+                
+            <div className="clr"></div>
                 
             </div>
             <br />
-            <div className="clr"></div>
 
             <p className="service-space">Services and products we work with:</p>
             <Icons />
