@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 import Icons from './Icons'
 import Helmet from 'react-helmet';
 
+
+
 class Services extends Component {
+
     render() {
         return (
           <div id="Services">
-          <Helmet>
+            <Helmet>
                 <meta charSet="utf-8" />
                 <title> Services | Gnosis Development</title>
             </Helmet>
@@ -18,13 +21,14 @@ class Services extends Component {
             Providing secure, fast, and affordable applications for any business size. </p> 
             <p>We work with your current service providers or can assist in locating appropriate services based on your unique needs. </p>
             
-           <div className="center-box">
-                <div id="service-card">
+           <div className= "center-box"  >
+                <div  id="service-card">
                         <i className="fab fa-android  fa-3x"></i> 
                         <h5>Android development</h5>
                         <p>Native Android applications designed and developed in house</p>
                         <p><a href="https://play.google.com/store/apps/developer?id=Gnosis+Development"> Samples available in GooglePlay </a></p>
                 </div>
+                
                 <div id="service-card">
                         <i className="fab fa-react fa-3x"></i> 
                         <h5>React development</h5>
