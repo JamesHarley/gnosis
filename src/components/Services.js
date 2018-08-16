@@ -10,7 +10,7 @@ class Services extends Component {
                 <meta charSet="utf-8" />
                 <title> Services | Gnosis Development</title>
             </Helmet>
-            <h5><i class="fas fa-cloud"></i> Services</h5>
+            <h5><i className="fas fa-cloud"></i> Services</h5>
             <p> Fast agile device independent apps is the Gnosis Development specialization. 
             We can build your project to work anywhere and everywhere. 
             </p>
@@ -20,13 +20,13 @@ class Services extends Component {
             
            <div className="center-box">
                 <div id="service-card">
-                        <i class="fab fa-android  fa-3x"></i> 
+                        <i className="fab fa-android  fa-3x"></i> 
                         <h5>Android development</h5>
                         <p>Native Android applications designed and developed in house</p>
                         <p><a href="https://play.google.com/store/apps/developer?id=Gnosis+Development"> Samples available in GooglePlay </a></p>
                 </div>
                 <div id="service-card">
-                        <i class="fab fa-react fa-3x"></i> 
+                        <i className="fab fa-react fa-3x"></i> 
                         <h5>React development</h5>
                         <p> Reactjs and React Native applications developed according to your needs</p>
                         <p>This website is built using Reactjs</p>
@@ -35,26 +35,24 @@ class Services extends Component {
             <div className="clr service-space"></div>
             <div className="center-box">
                 <div id="service-card">
-                    <i class="fab fa-html5 fa-3x"></i> 
+                    <i className="fab fa-wordpress fa-3x"></i> 
+                    <h5>Wordpress</h5>
+                    <p> Custom wordpress themes, plugins, and maintenance</p>
+                    <p>Wordpress is a great CMS framework to build a platform for sites needing frequent updates. 
+                    <br />Contact us for detailed quotes</p>
+                </div>
+                <div id="service-card">
+                    <i className="fab fa-html5 fa-3x"></i> 
                     <h5>Web development</h5>
                     <p> PHP, HTML5, CSS3, and Javascript. With a dash of SQL. </p>
                     <p>Combine them and build any website for any purpose. 
                     <br />Contact us for detailed quotes</p>
                 </div>
-                <div id="service-card">
-                    <i class="fab fa-wordpress fa-3x"></i> 
-                    <h5>Wordpress</h5>
-                    <br /> Custom wordpress themes, plugins, and maintenance
-                    <br />Wordpress is a great CMS framework to build a platform for sites needing frequent updates. 
-                    Contact us for detailed quotes
-                </div>
                 
-            <div className="clr"></div>
-                
+                               
             </div>
-            <br />
 
-            <p className="service-space">Services and products we work with:</p>
+            <p className="clr service-space">Services and products we work with:</p>
             <Icons />
         </div>
         );
