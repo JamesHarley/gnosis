@@ -10,10 +10,7 @@ import Contact from './Contact';
 import TheFoot from './TheFoot'
 import NoMatch from './NoMatch';
 import Leads from './Leads';
-
 import Naver from './Naver';
-
-
 class App extends Component {
   render() {
     return (
