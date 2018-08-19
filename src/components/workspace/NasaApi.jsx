@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 const manifest_curiosity = "https://mars-photos.herokuapp.com/api/v1/manifests/Curiosity"
-const keyed_api = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&camera=mast&api_key=4K0TaYlQrvzDCDgzMfahyU204KuKjdEkpr6yJ7LB"
+const keyed_api = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=3&camera=mast&api_key=4K0TaYlQrvzDCDgzMfahyU204KuKjdEkpr6yJ7LB"
 //const api = "https://mars-photos.herokuapp.com/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&camera=mast&api_key=4K0TaYlQrvzDCDgzMfahyU204KuKjdEkpr6yJ7LB"
 
 
