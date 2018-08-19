@@ -9,8 +9,11 @@ import Services from './Services';
 import Contact from './Contact';
 import TheFoot from './TheFoot'
 import NoMatch from './NoMatch';
-import Leads from './Leads';
 import Naver from './Naver';
+
+
+import Leads from './Leads';
+import Workspace from './workspace/Workspace';
 class App extends Component {
   render() {
     return (
@@ -35,7 +38,9 @@ class App extends Component {
             <Route path='/portfolio' component={Portfolio}/>
             <Route path='/services' component={Services}/>
             <Route path='/contact' component={Contact}/>
-            <Route path='/leads' component={Leads}/>
+            
+            <Route path='/leads' component={Leads}/>      
+            <Route path='/workspace' component={Workspace}/>
             <Route component={NoMatch}/>
           </Switch>
           </div>

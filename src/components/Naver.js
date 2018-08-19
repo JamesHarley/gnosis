@@ -7,7 +7,7 @@ class Naver extends Component {
     
       <nav className="gnostic-menu  navbar-expand-custom bg-inverse ">
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
+      <i className="fas fa-bars"></i>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="nav navbar-nav mr-auto">
