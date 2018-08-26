@@ -19,13 +19,7 @@ class Naver extends Component {
                 <i className="fas fa-circle-notch"></i><br />Gnosis Dev
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink 
-              className="nav-link portlink" 
-              to="/portfolio" >
-                <i className="fab fa-github"></i> <br />Portfolio
-              </NavLink>
-            </li>
+  
             <li className="nav-item cogitem">
               <NavLink className="nav-link cognav" 
                 to="/services">
@@ -35,6 +29,13 @@ class Naver extends Component {
                   </div>
                   <br />
                   <div className="servLink">Services</div>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink 
+              className="nav-link portlink" 
+              to="/portfolio" >
+                <i className="fab fa-github"></i> <br />Portfolio
               </NavLink>
             </li>
             <li className="nav-item">

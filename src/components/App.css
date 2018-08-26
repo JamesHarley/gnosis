@@ -125,7 +125,7 @@ a{
 }
 .cogger{
   width:65px;
-  margin-bottom:-31px;
+  margin-bottom:-30px;
   margin-left:auto;
   margin-right:auto;
 }
@@ -178,6 +178,11 @@ a{
   margin-left:auto;
   margin-right:auto;
   text-align: center;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
 }
 .nav{
   /***min-width:500px;**/
@@ -205,7 +210,11 @@ a.nav-link.active {
   text-align:center;
   text-shadow: 1px 1px 2px black, 0 0 10px rgb(35, 130, 255), 0 0 5px darkblue;
   color:#fff;
-  transform: scale(1.1);
+  transform: scale(1.0);
+  border-top-right-radius:15px;
+  border-top-left-radius:15px;
+
+  background:  rgba(4, 20, 39, 0.8);
 }
 
 
