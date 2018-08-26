@@ -19,10 +19,12 @@ class Home extends Component {
                 <p>Some of the services and products we work with:</p>
                 <Icons />   
               
-                    <p className="card-body text-center">Wether you need a completely custom product,  or you need support for your current web and mobile products, Gnosis Development offers low prices with superior quality.</p>
+                    <p className="card-text h5 text-center ">Wether you need a completely custom product,  or you need support for your current web and mobile products, Gnosis Development offers low prices with superior quality.</p>
+                    <br /><br />
                     <p className="form-group row">
-                    <NavLink className="btn btn-block btn-primary" to="/services">Learn More</NavLink>
+                    <NavLink className="home-btn btn btn-block btn-primary" to="/services">Learn More</NavLink>
                     </p>
+                   
 
                 
             </div>

@@ -409,6 +409,11 @@ a.nav-link.active {
 .leadsFeed{
   margin-left:-40px;
 }
+.home-btn{
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+}
 /** Animations 
 **
 **
