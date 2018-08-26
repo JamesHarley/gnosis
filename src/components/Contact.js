@@ -60,12 +60,14 @@ class ContactForm extends React.Component {
             {this.state.isSubmit === false && (
              <form onSubmit={this.handleSubmit}>
             <div className="form-group">
-                <label for="exampleInputEmail1">Email address</label>
+                <label for="email">Email address</label>
                 <input 
                     name="email"
-                    className="form-control" 
+                    className="form-control form-control-success" 
+                    id="email"
                     field="email" 
-                    placeholder="email"
+					type="email"
+                    placeholder="email@somewhere.com"
                     onChange={this.handleInputChange} 
                     required
                 />
