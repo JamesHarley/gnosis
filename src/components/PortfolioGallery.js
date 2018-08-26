@@ -4,7 +4,7 @@ import Lightbox from 'react-images';
 
 const PHOTO_SET = [
   {
-    src: '/photos/Dirocracy.png',
+    src: '/photos/dirocracy.png',
     width: 4,
     height: 3
   },
