@@ -6,7 +6,7 @@
   margin-right:auto;
   
   z-index: 1;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: 'Franklin Gothic Medium',  Arial, sans-serif
 }
 
 .App-logo {
@@ -62,7 +62,7 @@ h1{
   opacity: .75;  
   font-size: 2.5em;
   font-variant-caps: small-caps;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: 'Franklin Gothic Medium',  Arial, sans-serif
 }
 
 a:hover{ 
@@ -185,7 +185,8 @@ a{
 }
 .nav-item a, .nav-item a:visited{
   font-size: .9em;
-  color:#9edbff;
+ 
+  /**color:#9edbff;**/
   transition: all .2s ease-in-out;
   max-width: 120px;
 }
@@ -193,15 +194,14 @@ a{
 .nav-link:hover{
   text-align:center;
   text-shadow: 1px 1px 2px black, 0 0 10px rgb(35, 130, 255), 0 0 5px darkblue;
-  animation: navGlow 1s ease-out infinite alternate;
+  
   color:#2879a6;
   transform: scale(1.1);
 }
 a.nav-link.active {
   text-align:center;
   text-shadow: 1px 1px 2px black, 0 0 10px rgb(35, 130, 255), 0 0 5px darkblue;
-  animation: navGlow 2s ease-out infinite alternate;
-  color:#2fff;
+  color:#fff;
   transform: scale(1.1);
 }
 
