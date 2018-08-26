@@ -125,7 +125,7 @@ a{
 }
 .cogger{
   width:65px;
-  margin-bottom:-30px;
+  margin-bottom:-29px;
   margin-left:auto;
   margin-right:auto;
 }
@@ -136,9 +136,10 @@ a{
 }
 
 .cog2 {
+  font-size: .8em;
   display: block;
   position: relative;
-  margin-top: -11px;
+  margin-top: -12px;
   left:7px;
   text-shadow: none;
   -webkit-animation: invertBarrelRoll 8s infinite linear;;
@@ -148,6 +149,8 @@ a{
   width:70px;
   margin-left:auto;
   margin-right:auto;
+  margin-top:2.9px
+  
 }
 /**Custom Nav break bootstrap **/
  
