@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import PortfolioGallery from './PortfolioGallery'
+import PortfolioGallery from './PortfolioGallery';
+import { NavLink } from 'react-router-dom';
 
 class Portfolio extends Component {
     render() {
@@ -16,6 +17,10 @@ class Portfolio extends Component {
                  Once contacted we can provide temporary access to serious clients. </p>
                  <p>Latest Projects:</p>
                  <PortfolioGallery />
+                 <br /><br />
+                <p className="form-group row">
+                    <NavLink className="home-btn btn btn-block btn-primary" to="/contact">Contact us for detailed quotes</NavLink>
+                </p>
             </div>
         );
     }

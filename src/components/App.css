@@ -71,6 +71,12 @@ a{
   color:#2fff;
  
 }
+.btn-primary{
+  background-color:#2879a6
+}
+.btn-primary:hover{
+ background: #399dd6
+}
 .inner{
   font-size:x-large;
 }
@@ -208,9 +214,7 @@ a.nav-link.active {
   margin-left:auto;
   margin-right:auto;
 }
-.btn-primary{
-  background-color:#2879a6
-}
+
 #TheFoot{
   margin-top:30px;
   text-shadow: 0.2rem .2rem .3rem darkblue; 

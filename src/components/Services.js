@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Icons from './Icons'
 import Helmet from 'react-helmet';
-
-
+import { NavLink } from 'react-router-dom';
 
 class Services extends Component {
 
@@ -58,9 +57,13 @@ class Services extends Component {
                     </div>
                 </div>
             </div>
-
+            <br /><br />
+            <p className="form-group row">
+                <NavLink className="home-btn btn btn-block btn-primary" to="/portfolio">See our work</NavLink>
+            </p>
             <p className="clr service-space">Services and products we work with:</p>
             <Icons />
+            
         </div>
         );
     }

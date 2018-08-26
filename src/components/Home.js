@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Icons from './Icons';
 
 import Helmet from 'react-helmet';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 class Home extends Component {
     render() {

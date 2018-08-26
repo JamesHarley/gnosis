@@ -67,6 +67,7 @@ class ContactForm extends React.Component {
                     field="email" 
                     placeholder="email"
                     onChange={this.handleInputChange} 
+                    required
                 />
             </div>
         
@@ -78,6 +79,7 @@ class ContactForm extends React.Component {
                     field="firstName" 
                     placeholder='First Name' 
                     onChange={this.handleInputChange} 
+                    required
                 />
             </div>
 
@@ -89,6 +91,7 @@ class ContactForm extends React.Component {
                     field="lastName" 
                     placeholder='Last Name' 
                     onChange={this.handleInputChange} 
+                    required
                 />
             </div>
 
@@ -101,6 +104,7 @@ class ContactForm extends React.Component {
                     field="textArea" 
                     className="form-control"
                     onChange={this.handleInputChange} 
+                    required
                     placeholder='Questions, comments' />
             </div>
             <div class="form-group">
