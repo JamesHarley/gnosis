@@ -126,14 +126,14 @@ a{
 .cog  {
   -webkit-animation: barrelRoll 8s infinite linear;
   text-shadow: none;
-
+  margin-left:-8px;
 }
 
 .cog2 {
   display: block;
   position: relative;
   margin-top: -11px;
-  left:-12px;
+  left:7px;
   text-shadow: none;
   -webkit-animation: invertBarrelRoll 8s infinite linear;;
 }
