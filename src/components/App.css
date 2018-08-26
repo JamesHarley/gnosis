@@ -4,7 +4,6 @@
   height: 100%;
   margin-left:auto;
   margin-right:auto;
-  
   z-index: 1;
   font-family: 'Franklin Gothic Medium',  Arial, sans-serif
 }
@@ -53,7 +52,6 @@ html{
 body{
   background:none;
   color: #fff;
-  text-shadow: 0.2rem .2rem .3rem rgba(0, 0, 0, 0.863); 
 
 }
 
@@ -183,10 +181,10 @@ a{
 .nav-spacer{
   width:0px;
 }
-.nav-item a, .nav-item a:visited{
+.nav-item a{
   font-size: .9em;
  
-  /**color:#9edbff;**/
+  color:#9edbff;
   transition: all .2s ease-in-out;
   max-width: 120px;
 }
@@ -195,7 +193,6 @@ a{
   text-align:center;
   text-shadow: 1px 1px 2px black, 0 0 10px rgb(35, 130, 255), 0 0 5px darkblue;
   
-  color:#2879a6;
   transform: scale(1.1);
 }
 a.nav-link.active {
