@@ -6,19 +6,18 @@
     "axios": "^0.18.0",
     "bootstrap": "^4.1.0",
     "emailjs-com": "^2.1.1",
-    "forever-service": "^0.5.11",
     "jquery": "^3.3.1",
     "node-json2html": "^1.2.0",
     "popper.js": "^1.14.3",
-    "react": "^16.3.2",
+    "react": "^16.7",
     "react-csv-reader": "^0.3.2",
-    "react-dom": "^16.3.2",
+    "react-dom": "^16.7",
     "react-helmet": "^5.2.0",
     "react-image-gallery": "^0.8.7",
-    "react-images": "^0.5.17",
+    "react-images": "^0.5.19",
     "react-photo-gallery": "^6.0.25",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4",
+    "react-scripts": "^1.1.4",
     "react-transition-group": "^2.3.1",
     "serve": "^6.5.5"
   },
@@ -28,8 +27,6 @@
     "start:dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "fornows": "forever start -c `yarn start:s` ./",
-    "fornow": "forever start -c `yarn start` ./"
+    "eject": "react-scripts eject"
   }
 }

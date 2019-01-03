@@ -3,31 +3,44 @@ import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
 const PHOTO_SET = [
+  
   {
-    src: '/photos/dirocracy.png',
+    src: 'https://github.com/JamesHarley/ourhometown-google-doc-wordpress-publisher/blob/master/screenshots/google_docs_wordpress_publisher.PNG?raw=true',
     width: 4,
-    height: 3
+    height: 3,
+    caption: <a href="https://github.com/JamesHarley/ourhometown-google-doc-wordpress-publisher">Google Docs Addon built for client looking to publish to wordpress directly from Docs</a>
   },
+  { 
+    src: 'https://github.com/JamesHarley/ourhometown-gift-subscription/raw/master/screenshots/admin_area_example_setup.png?raw=true',
+    width: 4,
+    height: 3,
+    caption: <a href="https://github.com/JamesHarley/ourhometown-gift-subscription">Wordpress plugin built for client looking to add ability for customers to purchase gift subscriptions</a>
+  },
+
   {
     src: '/photos/arduinoBTWeatherStation.png',
     width: 4,
-    height: 3
+    height: 3,
+    caption: <a href="https://play.google.com/store/apps/details?id=gnosisdevelopment.arduinobtweatherstation">Android application that communicates over bluetooth serial and displays graphed points over time</a>
   },
   {
     src: '/photos/knowYourRights.png',
     width: 4,
-    height: 3
+    height: 3,
+    caption: <a href="https://play.google.com/store/apps/details?id=com.gnosisdevelopment.know_your_rights">First Android application released -- basic text rendering as developer skill building</a>
   },
-    {
-      src: '/photos/gd1.png',
-      width: 4,
-      height: 3
-    },
-    {
-      src: '/photos/gd2.png',
-      width: 4,
-      height: 3
-    },
+  {
+    src: '/photos/gd2.png',
+    width: 4,
+    height: 3,
+    caption: 'Norwegian forest breeders site built with ReactJS '
+  },
+  {
+    src: '/photos/dirocracy.png',
+    width: 4,
+    height: 3,
+    caption: 'Testing site'
+  },
 ];
 
 class PortfolioGallery extends Component {
@@ -61,6 +74,7 @@ class PortfolioGallery extends Component {
           currentImage: this.state.currentImage + 1,
         });
       }
+
     render() {
         return (
             <div id="PortfolioGallery">
@@ -72,6 +86,7 @@ class PortfolioGallery extends Component {
                     onClickNext={this.gotoNext}
                     currentImage={this.state.currentImage}
                     isOpen={this.state.lightboxIsOpen}
+                    
                 />
               </div>
             </div>
